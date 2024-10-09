@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOSIBERU VENTURE | Phone Sales & Repair</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px;
+            background-color: #e8f0fe;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        /* Services Section */
+        section {
+            padding: 40px;
+            background-color: white;
+            margin: 20px auto;
+            max-width: 1000px;
+        }
+
+        section h2 {
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .services {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .service-item {
+            background-color: #e8f0fe;
+            padding: 20px;
+            margin: 10px;
+            width: 30%;
+            text-align: center;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+
+        .service-item:hover {
+            transform: scale(1.05);
+        }
+
+        /* Staff Section */
+        .staff-section {
+            background-color: #fff;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .staff-section h2 {
+            margin-bottom: 20px;
+        }
+
+        .staff-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .staff-member {
+            background-color: #f4f4f4;
+            padding: 20px;
+            margin: 10px;
+            width: 200px;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        /* Contact Section */
+        .contact {
+            padding: 40px;
+            background-color: #333;
+            color: white;
+            text-align: center;
+        }
+
+        .contact h2 {
+            margin-bottom: 20px;
+        }
+
+        .contact p {
+            font-size: 1.1em;
+        }
+
+        .contact a {
+            color: #f4f4f4;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact a:hover {
+            color: #e8f0fe;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            font-size: 0.9em;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .services, .staff-list {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .service-item, .staff-member {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#services">Services</a>
+        <a href="#staff">Our Team</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <header>
+        <h1>Welcome to KOSIBERU VENTURE</h1>
+        <p>Your trusted dealer in all kinds of phones, accessories, and repairs.</p>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service-item">
+                <h3>Phone Sales</h3>
+                <p>We offer the latest smartphones and accessories at unbeatable prices.</p>
+            </div>
+            <div class="service-item">
+                <h3>Phone Repair</h3>
+                <p>Specialized repairs for Apple and Android devices. Fast and reliable service.</p>
+            </div>
+            <div class="service-item">
+                <h3>Phone Unlocking</h3>
+                <p>Unlock your phone to use on any network with our professional services.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Staff Section -->
+    <section id="staff" class="staff-section">
+        <h2>Meet Our Team</h2>
+        <div class="staff-list">
+            <div class="staff-member">
+                <h4>Kosiberu</h4>
+                <p>CEO</p>
+                <p>Phone: 08027401743</p>
+            </div>
+            <div class="staff-member">
+                <h4>Abbey</h4>
+                <p>Apple Hardware Specialist</p>
+                <p>Phone: 08060637732</p>
+            </div>
+            <div class="staff-member">
+                <h4>Apple</h4>
+                <p>Apple Software Specialist</p>
+                <p>Phone: 07032115603</p>
+            </div>
+            <div class="staff-member">
+                <h4>HighDee</h4>
+                <p>Android Specialist</p>
+                <p>Phone: 0817544898</p>
+            </div>
+            <div class="staff-member">
+                <h4>TeeHi</h4>
+                <p>Accessories Sales</p>
+                <p>Phone: 08020439394</p>
+            </div>
+            <div class="staff-member">
+                <h4>Richie</h4>
+                <p>Apple Hardware Specialist</p>
+                <p>Phone: 09020849397</p>
+            </div>
+            <div class="staff-member">
+                <h4>Sammy</h4>
+                <p>Android Repairs</p>
+                <p>Phone: 0902098404</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:shegzykosiberu@yahoo.com">shegzykosiberu@yahoo.com</a></p>
+        <p>Address: Shop D28, Nipost Shopping Complex, Dugbe, Ibadan.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 KOSIBERU VENTURE. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

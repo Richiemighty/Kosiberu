@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="K-removebg-preview.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Accessories Catalog | KOSIBERU INTER-BIZ VENTS</title>
+    <style>
+        body {
+            background-color: #f7f7f7;
+        }
+
+        h1 {
+            margin: 2rem 0;
+            text-align: center;
+            font-weight: 700;
+        }
+
+        .product-card {
+            transition: transform 0.3s ease;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-image {
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px 8px 0 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">KOSIBERU VENTURES</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#catalog">Catalog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Catalog Section -->
+    <section id="catalog" class="container my-5">
+        <h1>Accessories Catalog</h1>
+        <div class="row">
+
+            <!-- Product Item 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card product-card">
+                    <img src="charger.jpg" class="card-img-top product-image" alt="Charger">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Fast Charger</h5>
+                        <p class="card-text">$15.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Item 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card product-card">
+                    <img src="powerbank.jpg" class="card-img-top product-image" alt="Power Bank">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Power Bank 20000mAh</h5>
+                        <p class="card-text">$25.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Item 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card product-card">
+                    <img src="screen_protector.jpg" class="card-img-top product-image" alt="Screen Protector">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Screen Protector</h5>
+                        <p class="card-text">$10.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Item 4 -->
+            <div class="col-md-4 mb-4">
+                <div class="card product-card">
+                    <img src="earbuds.jpg" class="card-img-top product-image" alt="Wireless Earbuds">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Wireless Earbuds</h5>
+                        <p class="card-text">$35.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Item 5 -->
+            <div class="col-md-4 mb-4">
+                <div class="card product-card">
+                    <img src="cable.jpg" class="card-img-top product-image" alt="USB Cable">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">USB-C Charging Cable</h5>
+                        <p class="card-text">$5.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Item 6 -->
+            <div class="col-md-4 mb-4">
+                <div class="card product-card">
+                    <img src="car_charger.jpg" class="card-img-top product-image" alt="Car Charger">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Car Charger</h5>
+                        <p class="card-text">$12.00</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container my-5 text-center">
+        <h2>Contact Us</h2>
+        <p>Feel free to reach out for inquiries about our products.</p>
+        <button class="btn btn-primary">Get in Touch</button>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
